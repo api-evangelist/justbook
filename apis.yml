@@ -1,7 +1,29 @@
 aid: justbook
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/justbook.png
 name: JustBook
-description: 'JustBook is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'JustBook was a Berlin, Germany based mobile hotel booking startup that
+  offered same-day and last-minute hotel deals at discounted rates, in a model similar
+  to HotelTonight. Founded in 2012, it grew to cover last-minute inventory across more
+  than 120 cities in Europe and the United States through its iOS, Android, and web
+  apps. The company was backed by Creandum, DN Capital, and Earlybird Venture Capital
+  (among roughly 21 investors, raising about $3.74M) and was acquired by UK luxury-travel
+  company Secret Escapes in January 2014 to strengthen its German-market and mobile
+  presence. JustBook no longer operates as an independent brand and publishes no public
+  developer program, API, or documentation; this profile is retained as a network
+  record of a defunct, acquired Creandum portfolio company. Note: the justbook.de domain
+  is now an unrelated book price-comparison site (BookFinder) and is not connected
+  to this company.'
 url: https://raw.githubusercontent.com/api-evangelist/justbook/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +31,33 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-then-wound-down
+x-acquired-by: secret-escapes
+x-acquired-date: '2014-01'
+x-headquarters: Berlin, Germany
+x-founded: '2012'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Travel
+- Hospitality
+- Hotels
+- Booking
+- Mobile
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
